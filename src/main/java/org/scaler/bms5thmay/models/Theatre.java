@@ -11,7 +11,7 @@ import java.util.List;
 @Getter
 @Setter
 @Entity
-public class Theater extends BaseClass{
+public class Theatre extends BaseClass{
     private String name;
     @ManyToOne
     private Region region;
